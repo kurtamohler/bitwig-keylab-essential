@@ -11,7 +11,7 @@ This script might be useful for you if your setup looks like this:
 
 ## Install
   1. Find your `'Bitwig Studio/Controller Scripts'` directory. It will probably be right next to your `'Bitwig Studio/Projects'` directory.
-  2. Create a `'Bitwig Studio/Controller Scripts/arturia/keylab_essential_49'` directory and copy the `KeyLabEssentials49.control.js` script into it.
+  2. Create a `'Bitwig Studio/Controller Scripts/arturia/keylab_essential_49'` directory and copy the `KeyLabEssential49.control.js` script into it.
 
 ## Features
 
