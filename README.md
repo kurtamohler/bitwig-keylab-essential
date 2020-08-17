@@ -1,5 +1,5 @@
 # bitwig-keylab-essential
-Bitwig controller for the Arturia KeyLab Essential 49 keyboard
+Bitwig controller script for the Arturia KeyLab Essential 49 keyboard
   
 ## Environment
 
