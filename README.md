@@ -9,11 +9,6 @@ This script might be useful for you if your setup looks like this:
 * Keyboard: Arturia KeyLab Essential 49
 * OS: Linux (I'm not sure if this matters or not, the issues I had probably apply to MacOS and Windows as well)
 
-## Install
-  1. Find your `'Bitwig Studio/Controller Scripts'` directory. It will probably be right next to your `'Bitwig Studio/Projects'` directory.
-  2. Create a `'Bitwig Studio/Controller Scripts/arturia/keylab_essential_49'` directory and copy the `KeyLabEssential49.control.js` script into it.
-  3. The controller should now be available under `Arturia -> KeyLab Essential 49` in the `Add controller manually` dropdown menu of the `Controllers` settings tab in Bitwig.
-
 ## Features
 
 * Generic key mappings
@@ -21,6 +16,11 @@ This script might be useful for you if your setup looks like this:
 * Automatically map knobs to channel controls in Bitwig (but they can be overridden inside Bitwig)
 
 I'm still developing this script, so it's currently very basic. I'm planning on adding more features. Please submit an issue for any features you'd like me to add, or you can submit a PR if you want to add it yourself.
+
+## Install
+  1. Find your `'Bitwig Studio/Controller Scripts'` directory. It will probably be right next to your `'Bitwig Studio/Projects'` directory.
+  2. Create a `'Bitwig Studio/Controller Scripts/arturia/keylab_essential_49'` directory and copy the `KeyLabEssential49.control.js` script into it.
+  3. The controller should now be available under `Arturia -> KeyLab Essential 49` in the `Add controller manually` dropdown menu of the `Controllers` settings tab in Bitwig.
 
 ## Details
 
