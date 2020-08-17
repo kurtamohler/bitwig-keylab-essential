@@ -17,7 +17,7 @@ This script might be useful for you if your setup looks like this:
 ## Features
 
 * Generic key mappings
-* Enable user to map knobs and faders to any controllable parameters inside Bitwig 
+* Enable user to map knobs and faders to any controllable parameter inside Bitwig 
 * Automatically map knobs to channel controls in Bitwig (but they can be overridden inside Bitwig)
 
 I'm still developing this script, so it's currently very basic. I'm planning on adding more features. Please submit an issue for any features you'd like me to add, or you can submit a PR if you want to add it yourself.
