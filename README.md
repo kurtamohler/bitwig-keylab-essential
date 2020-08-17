@@ -12,6 +12,7 @@ This script might be useful for you if your setup looks like this:
 ## Install
   1. Find your `'Bitwig Studio/Controller Scripts'` directory. It will probably be right next to your `'Bitwig Studio/Projects'` directory.
   2. Create a `'Bitwig Studio/Controller Scripts/arturia/keylab_essential_49'` directory and copy the `KeyLabEssential49.control.js` script into it.
+  3. The controller should now be available under `Arturia -> KeyLab Essential 49` in the `Add controller manually` dropdown menu of the `Controllers` settings tab in Bitwig.
 
 ## Features
 
