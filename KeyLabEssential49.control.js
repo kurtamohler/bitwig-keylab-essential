@@ -52,7 +52,7 @@ function init() {
 
     cursorTrack = host.createCursorTrack(3, 0);
     cursorDevice = cursorTrack.createCursorDevice();
-    remoteControls = cursorDevice.createCursorRemoteControlsPage(RemoteControllers.length);
+    remoteControls = cursorDevice.createCursorRemoteControlsPage(RemoteControlCodes.length);
     
     RemoteControlCodes.forEach(function (code, ind){
         var p = remoteControls.getParameter(ind).getAmount();
@@ -64,8 +64,10 @@ function init() {
 function onMidi(status, data1, data2) {
     if (isChannelController(status))
     {
-        var remote_control_index = RemoteControlCodes.indexOf(data2);
-        remoteControls.getParameter(remote_control_index).getAmount().value().set(data2, 128);
+        var remote_control_index = RemoteControlCodes.indexOf(data1);
+        if (remote_control_index >= 0) {
+            remoteControls.getParameter(remote_control_index).getAmount().value().set(data2, 128);
+        }
     }
 }
 
